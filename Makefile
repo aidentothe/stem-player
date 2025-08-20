@@ -5,7 +5,7 @@
 CC = clang
 OBJC = clang
 CFLAGS = -Wall -Wextra -O2 -fobjc-arc
-FRAMEWORKS = -framework Cocoa -framework AppKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -framework AudioToolbox -framework IOKit
+FRAMEWORKS = -framework Cocoa -framework AppKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -framework AudioToolbox -framework IOKit -framework QuartzCore
 
 # Directories
 SRC_DIR = src
